@@ -11,6 +11,7 @@ deliverables: '1 HTML file, 1 CSS file, images'
 - *Fork this repository.*
 - Create the layout that matches the screenshots using Gridifier and Typografier classes.
 - The `index.html` needs to be created and edited.
+- Text can be found inside the `content.txt` file.
 - **DO NOT change the CSS files—they’re all complete.**
 - *Run it through Markbot and make sure it passes all the checks.*
 
