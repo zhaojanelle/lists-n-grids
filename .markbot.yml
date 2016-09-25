@@ -1,0 +1,65 @@
+repo: 'lists-n-grids'
+canvasCourse: 'web-dev-3'
+
+naming: true
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
+
+html:
+  - path: 'index.html'
+    valid: true
+    bestPractices: true
+    outline: true
+    has:
+      - ['link[href*="grid.css"] + link[href*="type.css"]', 'The `grid.css` file must come before the `type.css` file.']
+      - ['link[href*="type.css"] + link[href*="main.css"]', 'The `type.css` file must come before the `main.css` file.']
+      - ['link[href*="Denk+One"]', 'The font, `Denk One`, from Google Fonts should be included']
+      - 'a[href*="https://en.wikipedia.org/wiki/"]'
+      - 'img.img-flex'
+      - 'main'
+      - 'main > h1'
+      - 'main > ol'
+      - 'li > div'
+      - 'li img'
+      - 'li h2'
+      - 'li p'
+      - 'li a'
+      - '.grid'
+      - '.unit'
+      - '.card'
+    search:
+      - 'Prehistoric mammals'
+      - 'Arsinoitherium'
+      - 'Elasmotherium'
+      - 'Glyptodon'
+      - 'Megatherium'
+      - 'Learn more about'
+      - 'xs-'
+      - 's-'
+      - 'm-'
+      - 'l-'
+      - 'pad-'
+      - 'island-'
+      - 'gutter-'
+      - 'push-'
+      - 'micro|milli|kilo|mega|giga|tera|peta|exa|zetta|yotta'
+      - 'grid-stretch'
+      - 'content-fill'
+      - 'unit-content-distribute'
+
+css:
+  - path: 'css/main.css'
+    locked: true
+  - path: 'css/grid.css'
+    locked: true
+  - path: 'css/type.css'
+    locked: true
+
+screenshots:
+  - path: 'index.html'
+    sizes: [320, 400, 608, 960, 1440]
