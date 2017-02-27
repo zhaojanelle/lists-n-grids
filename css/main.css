@@ -45,11 +45,3 @@ a {
   border: 2px solid #623b0c;
   border-radius: 8px;
 }
-
-ol {
-  padding: 0;
-}
-
-li {
-  list-style-type: none;
-}
